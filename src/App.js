@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //pages
 import Home from './pages/Home'
+import Dresses from './pages/Dresses'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <br />
       <br />
       <br />
+     
     </div>
   );
 }
