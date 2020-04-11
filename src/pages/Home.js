@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from './components/Slider'
 import Content from './components/Content'
+import Content2 from './components/Content2'
 
 function Home() {
     return (
@@ -10,7 +11,7 @@ function Home() {
             <br/>
             <Content />
             <br/>
-            <br/>
+            <Content2 />
         </div>
        
     )

@@ -22,3 +22,24 @@
 .dimargin {
     margin-top:230px;
 }
+.bg {
+    background-color: #f7e5dc;
+}
+.bg2 {
+    background-color: #fed0bf;
+}
+.bannertext {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    color :#242520;
+}
+.label {
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+    color :#242520;
+    text-align: center;
+}
