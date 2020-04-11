@@ -1,25 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Fragment} from 'react';
 import './App.css';
 import Navbar from './pages/Navbar';
-import { Button } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import {BrowserRouter as Router,Route} from "react-router-dom";
 
 //pages
 import Home from './pages/Home'
-
+import Contact from './pages/Contact'
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Home />
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-    </div>
+    <Router>
+          <Fragment>
+          <div>
+          <Navbar />
+          </div>
+          <Route path="/" exact component={Home} />
+          <Route path="/contact" component={Contact} />
+          </Fragment>
+    </Router>
+        </div>
   );
 }
 
