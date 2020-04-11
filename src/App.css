@@ -50,3 +50,28 @@ a:hover {
 .carousel .Slide {
     background-color: none !important;
 }
+
+/* CCS Contact*/
+.title-contact {
+    text-align: center;
+}
+.iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+}
+.left-contact {
+    float: left;
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10%;
+}
+
+.right-contact {
+    width: 50%;
+    margin-top: 30px;
+    float: right;
+    margin-right: 10%;
+    margin-bottom: 30px;
+}

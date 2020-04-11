@@ -23,7 +23,7 @@ function Navbar2() {
     if (activeTab !== tab) setActiveTab(tab);
   };
   return (
-    <div>
+    <div className="container">
       <Nav tabs style={{ justifyContent: "center" }}>
         <NavItem>
           <NavLink
