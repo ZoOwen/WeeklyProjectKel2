@@ -39,7 +39,14 @@ ul li{
     float: none;
 }
 a {
-    text-decoration: none;
-    color : #000;
+    text-decoration: none !important;
+    color : #000 !important;
     font-family: Poppins, sans-serif;
+}
+a:hover {
+    color : lightcoral !important;
+    
+}
+.carousel .Slide {
+    background-color: none !important;
 }
