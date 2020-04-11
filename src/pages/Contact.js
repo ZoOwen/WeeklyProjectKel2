@@ -24,30 +24,30 @@ function Contact() {
         </div>
         <div className='right-contact'>
         <Form>
-        <Form.Group controlId="formBasicEmail">
-    <Form.Label>Your Name (required)</Form.Label>
-    <Form.Control type="email"/>
-  </Form.Group>
+            <Form.Group controlId="formBasicEmail">
+            <Form.Label>Your Name (required)</Form.Label>
+            <Form.Control type="email"/>
+            </Form.Group>
 
-  <Form.Group controlId="formBasicEmail">
-    <Form.Label>Your Email (required)</Form.Label>
-    <Form.Control type="email"/>
-  </Form.Group>
+            <Form.Group controlId="formBasicEmail">
+            <Form.Label>Your Email (required)</Form.Label>
+            <Form.Control type="email"/>
+            </Form.Group>
 
-  <Form.Group controlId="formBasicSubject">
-    <Form.Label>Subject</Form.Label>
-    <Form.Control type="email"/>
-  </Form.Group>
+            <Form.Group controlId="formBasicSubject">
+            <Form.Label>Subject</Form.Label>
+             <Form.Control type="email"/>
+            </Form.Group>
 
-  <Form.Group controlId="exampleForm.ControlTextarea1">
-    <Form.Label>Your Message</Form.Label>
-    <Form.Control as="textarea" rows="10" />
-  </Form.Group>
+            <Form.Group controlId="exampleForm.ControlTextarea1">
+            <Form.Label>Your Message</Form.Label>
+            <Form.Control as="textarea" rows="10" />
+            </Form.Group>
 
-  <Button variant="dark" type="submit">
-    SEND
-  </Button>
-</Form>
+            <Button variant="dark" type="submit">
+            SEND
+            </Button>
+        </Form>
 
         </div>
     </body>
