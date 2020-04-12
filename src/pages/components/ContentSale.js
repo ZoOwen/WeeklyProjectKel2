@@ -4,7 +4,6 @@ import {
   TabPane,
   Card,
   CardTitle,
-  CardText,
   Row,
   Col,
   CardImg,
