@@ -19,6 +19,7 @@ import Contact from './pages/Contact'
 import Skirts from './pages/Skirts'
 import Topss from './pages/Topss'
 import Sale from './pages/Sale'
+import Recipe from './pages/Recipe'
 
 
 function App() {
@@ -49,6 +50,10 @@ function App() {
           <Contact/>
         </Route>
         
+        <Route path="/recipe">
+        <Recipe/>
+      </Route>
+      
       </Switch>
     </div>
     <Footer />
