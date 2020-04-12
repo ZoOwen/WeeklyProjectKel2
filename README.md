@@ -24,4 +24,8 @@ Use Public API :
 - [Unsplash](https://unsplash.com/)
 - [edamam](https://developer.edamam.com/)
 
+
+REFERENCE TEMPLATE :
+[VERDANGO](https://ld-wp.template-help.com/woocommerce_prod-18520/v2/)
+
 link : [Netifly](https://weeklyproject42.netlify.com/)
