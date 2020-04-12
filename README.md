@@ -11,16 +11,17 @@ Simple E-Commerce Web using React.js
 
 use Css Framework Reactstrap
 
-Slide :
+Page :
 - Home
-- Dresses
+- Dresses (Api unsplash)
 - Tops
 - Skirts
 - Sale
 - Contacts
+- Special (Api edamam) <- tambahan menu
 
 Use Public API :
-- Unsplash
-- edamam
+- [Unsplash](https://unsplash.com/)
+- [edamam](https://developer.edamam.com/)
 
 link : [Netifly](https://weeklyproject42.netlify.com/)
