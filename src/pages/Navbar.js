@@ -1,20 +1,28 @@
 import React from "react";
 import "../App.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function Navbar() {
   return (
   <div>
   <header>
-  <img src={require('./images/header.png')} />
+  <img width="100%" src={require('./images/header.png')} />
   </header>
-  <ul className="navs">
-  <li className="nav"><a href="/">Home</a></li>
-  <li className="nav"><a href="/dresses">Dresses</a></li>
-  <li className="nav"><a href="/topss">Top</a></li>
-  <li className="nav"><a href="/skirts">Skirts</a></li>
-  <li className="nav"><a href="#about">Sale</a></li>
-  <li className="nav"><a href="/contact">Contacts</a></li>
+ <nav>
+ <ul className="navs">
+ <li className="nav"><Link to="/">Home</Link></li>
+ <li className="nav"><Link to="/dresses">Dresses</Link></li>
+ <li className="nav"><Link to="/topss">Top</Link></li>
+ <li className="nav"><Link to="/skirts">Skirts</Link></li>
+ <li className="nav"><Link to="#about">Sale</Link></li>
+ <li className="nav"><Link to="/contact">Contacts</Link></li>
 </ul>
+</nav>
   </div>
   );
 }
