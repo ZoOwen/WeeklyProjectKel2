@@ -15,6 +15,5 @@ Slide :
 
 Use Public API :
 - Unsplash
-- Google Maps API
 
 link : [Netifly](https://weeklyproject42.netlify.com/)
