@@ -18,6 +18,7 @@ import Footer from './pages/Footer'
 import Contact from './pages/Contact'
 import Skirts from './pages/Skirts'
 import Topss from './pages/Topss'
+import Sale from './pages/Sale'
 
 
 function App() {
@@ -42,7 +43,7 @@ function App() {
           <Skirts />
         </Route>
         <Route path="/sale">
-          
+        <Sale/>
         </Route>
         <Route path="/contact">
           <Contact/>
