@@ -11,6 +11,8 @@ import Dresses from './pages/Dresses'
 import Footer from './pages/Footer'
 
 import Contact from './pages/Contact'
+import Skirts from './pages/Skirts'
+import Topss from './pages/Topss'
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
       <Route path="/" exact component={Home} />
       <Route path="/contact" component={Contact} />
       <Route path="/dresses" component={Dresses} />
+      <Route path="/topss" component={Topss} />
+      <Route path="/skirts" component={Skirts} />
       </Fragment>
 </Router>
 

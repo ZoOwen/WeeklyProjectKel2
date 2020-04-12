@@ -8,8 +8,9 @@ function Footer() {
            <div className="row">
            
            <div className="col-md-3">
-           <p className="ftitle">BUYING GUIDE</p>
+           
             <ul>
+            <li className="ftitle">BUYING GUIDE</li>
             <li className="lst">Dresses</li>
             <li  className="lst">Tops</li>
             <li  className="lst">Skirts</li>
@@ -17,8 +18,9 @@ function Footer() {
             </ul>
            </div>
            <div className="col-md-3">
-           <p className="ftitle">OURSTORE</p>
+           
            <ul>
+           <li className="ftitle">OURSTORE</li>
             <li className="lst">About</li>
             <li  className="lst">Our Services</li>
             <li  className="lst">FAQ</li>
@@ -26,8 +28,9 @@ function Footer() {
             </ul>
            </div>
            <div className="col-md-3">
-           <p className="ftitle">PROFILE</p>
+           
            <ul>
+           <li className="ftitle">PROFILE</li>
             <li className="lst">My Account</li>
             <li  className="lst">Checkout</li>
             <li  className="lst">Order Tracking</li>
@@ -35,8 +38,9 @@ function Footer() {
             </ul>
            </div>
            <div className="col-md-3">
-           <p className="ftitle">ABOUT US</p>
+           
            <ul>
+           <li className="ftitle">ABOUT US</li>
             <li  className="lst">Online Consulation: +1 (234) 567 89</li>
             <li  className="lst">Address: 4578 Marmora Road, Glasgow</li>
             <li  className="lst">Working Time: Mon–Sat: 08:00–18:00</li>

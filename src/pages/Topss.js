@@ -6,7 +6,7 @@ import SliderTops from './components/SliderTops'
 function Topss() {
     return (
         <div>
-            <Navbar />
+            
             <SliderTops />
             <br/>
             <br/>

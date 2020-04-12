@@ -6,7 +6,7 @@ import ContentSkirts from './components/ContentSkirts'
 function Skirts() {
     return (
         <div>
-            <Navbar />
+
             <SliderTops />
             <br/>
             <br/>

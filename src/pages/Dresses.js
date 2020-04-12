@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import '../App.css'
-
-
+import "../App.css";
 
 class Dresses extends Component {
   constructor() {
@@ -23,33 +21,46 @@ class Dresses extends Component {
         console.log("Error happened during fetching!", err);
       });
   }
-  
-  
 
   render() {
-    const IMAGES =
-  [{
-          src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
-          thumbnail: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
-          thumbnailWidth: 320,
-          thumbnailHeight: 174,
-          isSelected: true,
-          caption: "After Rain (Jeshu John - designerspics.com)"
-  }]
     console.log(this.state.imgs);
+
     return (
+      <div className="wrapper">
+      <br/>
+      <h1 className="title-contact"> Unsplash </h1>
+      <br/>
+      <br/>
 
+      <h3 className="sub-contact"> Here we deserve you some Beautiful images from Unsplash just for $5</h3>
+        <div class="row">
+          {this.state.imgs.map((item, index) => (
+            <div className="col-md-4">
+              <div className="thumbnail">
+                <a href="/w3images/lights.jpg">
+                  <img
+                    key={index}
+                    src={item.urls.small}
+                    alt="Lights"
+                    styleName={{
+                      height: "auto",
+                      width: "100%",
+                      marginTop: "10px",
+                      marginLeft: "10px",
+                      marginRight: "10px",
+                      marginBottom: "10px",
+                    }}
+                  ></img>
 
-      <div className="container">
-      {this.state.imgs.map((item, index) => (
-        <ul className="imgul">
-          {<li  className="imgli" key={index}> <img src={item.urls.small} alt="image" /></li>}
-         
-        </ul>
-      ))}
-       
+                  <div className="caption">
+                    <p>{item.alt_description}</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    
     );
   }
 }
