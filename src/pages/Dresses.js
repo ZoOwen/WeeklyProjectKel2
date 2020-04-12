@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import axios from "axios";
 import '../App.css'
 
+
+
 class Dresses extends Component {
   constructor() {
     super();
@@ -10,13 +12,9 @@ class Dresses extends Component {
     };
   }
   componentDidMount() {
-    const config = {
-        "x-rapidapi-host": "animenewsnetwork.p.rapidapi.com",
-		"x-rapidapi-key": "f2e446959amsh8c41a80758360dep14b0dbjsn8d11094dd70f"
-          };
     axios
       .get(
-        "https://animenewsnetwork.p.rapidapi.com/api.xml", config
+        `https://api.unsplash.com/photos/?client_id=wQ4zgSY44EQXmQbLm-iTYO9OulBQP9p6h0o3tJJBZ9Q`
       )
       .then((data) => {
         this.setState({ imgs: data.data });
@@ -25,21 +23,33 @@ class Dresses extends Component {
         console.log("Error happened during fetching!", err);
       });
   }
-  // }
+  
+  
 
   render() {
-    console.log(this.state);
+    const IMAGES =
+  [{
+          src: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_b.jpg",
+          thumbnail: "https://c2.staticflickr.com/9/8817/28973449265_07e3aa5d2e_n.jpg",
+          thumbnailWidth: 320,
+          thumbnailHeight: 174,
+          isSelected: true,
+          caption: "After Rain (Jeshu John - designerspics.com)"
+  }]
+    console.log(this.state.imgs);
     return (
-    //   <div>
-    //     <h1>Unsplash</h1>
-    //     {this.state.imgs.map((item, index) => (
-    //       <div key={index}>
-    //         {/* <li>{item.urls.small}</li> */}
-    //         <li><img src={item.urls.small} alt="image" /></li>
-    //       </div>
-    //     ))}
-    //   </div>
-    <div><p>Hello</p></div>
+
+
+      <div className="container">
+      {this.state.imgs.map((item, index) => (
+        <ul className="imgul">
+          {<li  className="imgli" key={index}> <img src={item.urls.small} alt="image" /></li>}
+         
+        </ul>
+      ))}
+       
+      </div>
+    
     );
   }
 }

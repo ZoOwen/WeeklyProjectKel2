@@ -20,7 +20,7 @@ html {
 html {
     color: -internal-root-color;
 }
-ul {
+.navs {
     list-style-type: none;
     padding :0;
     margin-top:-80px;
@@ -28,13 +28,13 @@ ul {
     display: table;
     text-align: center;
 }
-li {
+.nav {
     
     list-style: none;
     display: inline;
     padding :20px;
 }
-ul li{
+.navs .nav{
     display: inline-block;
     float: none;
 }
@@ -54,11 +54,32 @@ a:hover {
 /* CCS Contact*/
 .title-contact {
     text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    color :#000;
+}
+.sub-contact {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color :#7d7e7a;
 }
 .iframe {
-    width: 100%;
+    width: 1360px;
     height: 300px;
     border: none;
+    position: relative;
+ margin-left: -10vw;
 }
 .left-contact {
     float: left;
@@ -75,3 +96,41 @@ a:hover {
     margin-right: 10%;
     margin-bottom: 30px;
 }
+
+
+/* for Dresses */
+.kepala {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .imgul {
+    text-align: center;
+    padding: 0;
+  }
+  
+  .imgli{
+    
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  li img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .headerDres {
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 42px;
+    color :#7d7e7a;
+  }

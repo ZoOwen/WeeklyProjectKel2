@@ -7,13 +7,13 @@ function Navbar() {
   <header>
   <img src={require('./images/header.png')} />
   </header>
-  <ul>
-  <li><a href="/">Home</a></li>
-  <li><a href="#news">Dresses</a></li>
-  <li><a href="#contact">Top</a></li>
-  <li><a href="#about">Skirts</a></li>
-  <li><a href="#about">Sale</a></li>
-  <li><a href="/contact">Contacts</a></li>
+  <ul className="navs">
+  <li className="nav"><a href="/">Home</a></li>
+  <li className="nav"><a href="/dresses">Dresses</a></li>
+  <li className="nav"><a href="#contact">Top</a></li>
+  <li className="nav"><a href="#about">Skirts</a></li>
+  <li className="nav"><a href="#about">Sale</a></li>
+  <li className="nav"><a href="/contact">Contacts</a></li>
 </ul>
   </div>
   );

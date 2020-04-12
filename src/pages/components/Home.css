@@ -43,3 +43,64 @@
     color :#242520;
     text-align: center;
 }
+.footer2 {
+    background-color: #fed0be !important; 
+    /* background: url('../images/footer.png'); */
+    
+}
+.brand {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 35px;
+    color :#242520;
+}
+.little {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 10px;
+    color :#242520;
+    margin-top:-10px;
+}
+.frv {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color :#242520;
+    margin-top:50px;
+}
+
+.ftitle {
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color :#242520;
+    margin-top:50px;
+}
+.lst {
+    list-style: none;
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 32px;
+    color :#7d7e7a;
+}
+.last {
+    font-family: Poppins, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 27px;
+    color :#979797;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+    align-self: center;
+    
+}
