@@ -24,7 +24,9 @@ function Navbar2() {
   };
   return (
     <div className="wrapper container">
-      <Nav tabs style={{ justifyContent: "center", display: "inline" }}>
+      <Nav tabs style={{ justifyContent: "center" }}>
+        <div className="row">
+        <div className="col-md-3">
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === "1" })}
@@ -32,9 +34,12 @@ function Navbar2() {
               toggle("1");
             }}
           >
-            DRESSES
+            DRESSESS
           </NavLink>
         </NavItem>
+        </div>
+        <div className="col-md-3">
+        
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === "2" })}
@@ -45,6 +50,9 @@ function Navbar2() {
             TOPS
           </NavLink>
         </NavItem>
+        </div>
+        <div className="col-md-3">
+        
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === "2" })}
@@ -55,6 +63,9 @@ function Navbar2() {
             SKIRTS
           </NavLink>
         </NavItem>
+        </div>
+        <div className="col-md-3">
+        
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === "2" })}
@@ -64,7 +75,9 @@ function Navbar2() {
           >
             SALES
           </NavLink>
-        </NavItem>
+        </NavItem></div>
+          
+        </div>
       </Nav>
 
       <TabContent activeTab={activeTab}>
