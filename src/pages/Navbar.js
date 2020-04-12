@@ -21,6 +21,7 @@ function Navbar() {
  <li className="nav"><Link to="/skirts">Skirts</Link></li>
  <li className="nav"><Link to="/sale">Sale</Link></li>
  <li className="nav"><Link to="/contact">Contacts</Link></li>
+ <li className="nav"><Link to="/recipe">Special</Link></li>
 </ul>
 </nav>
   </div>
