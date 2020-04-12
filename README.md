@@ -15,6 +15,6 @@ Slide :
 
 Use Public API :
 - Unsplash
-- Google Maps API
+- edamam
 
 link : [Netifly](https://weeklyproject42.netlify.com/)
