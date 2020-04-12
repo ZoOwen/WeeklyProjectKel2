@@ -24,7 +24,7 @@ function Navbar2() {
   };
   return (
     <div className="wrapper container">
-      <Nav tabs style={{ justifyContent: "center" }}>
+      <Nav tabs style={{ justifyContent: "center", display: "inline" }}>
         <NavItem>
           <NavLink
             className={classnames({ active: activeTab === "1" })}
