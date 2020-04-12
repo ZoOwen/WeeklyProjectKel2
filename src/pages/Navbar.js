@@ -10,7 +10,7 @@ import {
 function Navbar() {
   return (
   <div>
-  <header>
+  <header class="header">
   <img width="100%" src={require('./images/header.png')} />
   </header>
  <nav>
