@@ -23,7 +23,7 @@ function Navbar2() {
     if (activeTab !== tab) setActiveTab(tab);
   };
   return (
-    <div className="wrapper container">
+    <div>
       <Nav tabs >
         <NavItem>
           <NavLink
