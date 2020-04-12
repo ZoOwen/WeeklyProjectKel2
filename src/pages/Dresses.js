@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
 import "../App.css";
+import Slider from "./components/Slider"
+import ContentDresses from "./components/ContentDresses"
 
 class Dresses extends Component {
   constructor() {
@@ -26,8 +28,11 @@ class Dresses extends Component {
     console.log(this.state.imgs);
 
     return (
+      
       <div className="wrapper">
+      <Slider />
       <br/>
+      <ContentDresses />
       <h1 className="title-contact"> Unsplash </h1>
       <br/>
       <br/>
