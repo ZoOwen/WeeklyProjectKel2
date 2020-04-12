@@ -1,6 +1,5 @@
 import React from 'react'
 import ContentTops from './components/ContentTops'
-import Navbar from './Navbar'
 import SliderTops from './components/SliderTops'
 
 function Topss() {
