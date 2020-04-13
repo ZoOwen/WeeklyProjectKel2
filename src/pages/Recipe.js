@@ -44,7 +44,9 @@ const Recipe = () => {
       </button></div>
       </div>
       </form>
-    <div style={{alignItems: 'center', justifyContent: 'center', display : 'flex'}}>
+      <br />
+      <br />
+    <div style={{width :'100%', justifyContent: 'center', display : 'flex', flexWrap : 'nowrap', flexDirection: 'column', alignContent: 'center',alignItems: 'center'}}>
       {recipes.map(recipe => (
         <Recipes
           key={recipe.recipe.label}
