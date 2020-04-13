@@ -6,25 +6,21 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navbar() {
   return (
-  <div>
-  <header class="header">
-  <img width="100%" src={require('./images/header.png')} />
-  </header>
- <nav>
- <ul className="navs">
- <li className="nav"><Link to="/">Home</Link></li>
- <li className="nav"><Link to="/dresses">Dresses</Link></li>
- <li className="nav"><Link to="/topss">Top</Link></li>
- <li className="nav"><Link to="/skirts">Skirts</Link></li>
- <li className="nav"><Link to="/sale">Sale</Link></li>
- <li className="nav"><Link to="/contact">Contacts</Link></li>
- <li className="nav"><Link to="/recipe">Special</Link></li>
+ <nav class="navbar navbar-expand-sm">
+<ul className="navs navbar-nav" >
+<li className="nav nav-item"><Link to="/">Home</Link></li>
+<li className="nav nav-item"><Link to="/dresses">Dresses</Link></li>
+<li className="nav nav-item"><Link to="/topss">Top</Link></li>
+<li className="nav nav-item"><Link to="/skirts">Skirts</Link></li>
+<li className="nav nav-item" ><Link to="/sale">Sale</Link></li>
+<li className="nav nav-item" ><Link to="/contact">Contacts</Link></li>
+<li className="nav nav-item"><Link to="/recipe">Special</Link></li>
 </ul>
 </nav>
-  </div>
   );
 }
 

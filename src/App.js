@@ -1,6 +1,6 @@
 import React, {Fragment} from 'react';
 import './App.css';
-import Navbar from './pages/Navbar';
+import Navbar from './pages/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   BrowserRouter as Router,
@@ -26,6 +26,9 @@ function App() {
   return (
     <Router>
     <div>
+    <header>
+  <img width="100%" src={require('./pages/images/header.png')} />
+  </header>
      <Navbar />
 
       {/* A <Switch> looks through its children <Route>s and
